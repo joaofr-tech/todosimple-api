@@ -1,0 +1,18 @@
+$kind: http-request
+name: Create
+url: "{{host}}/task"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"description\": \"futvolei night use 2\",\r
+
+    \    \"user\": {\r
+
+    \        \"id\": 1\r
+
+    \    }\r
+
+    }"
+order: 2000

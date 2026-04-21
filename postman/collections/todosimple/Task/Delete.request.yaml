@@ -1,0 +1,9 @@
+$kind: http-request
+name: Delete
+url: "{{host}}/task/1"
+method: DELETE
+body:
+  type: json
+  content: ""
+examples: .resources/Delete.resources/examples
+order: 4304697079159990

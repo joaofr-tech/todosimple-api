@@ -1,0 +1,14 @@
+$kind: http-request
+name: Update
+url: "{{host}}/user/1"
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"username\": \"joao2\",\r
+
+    \    \"password\": \"supersenha2\"\r
+
+    }"
+order: 536187239349198

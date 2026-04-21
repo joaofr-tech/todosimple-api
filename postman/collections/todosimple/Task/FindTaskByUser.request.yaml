@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{host}}/task/user/2"
+method: GET
+body:
+  type: json
+  content: ""
+examples: .resources/FindTaskByUser.resources/examples
+order: 4411252610554480

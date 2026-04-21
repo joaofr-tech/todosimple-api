@@ -1,0 +1,5 @@
+$kind: http-request
+name: Find
+url: "{{host}}/user/2"
+method: GET
+order: 3816904873860529

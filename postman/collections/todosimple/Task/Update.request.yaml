@@ -1,0 +1,13 @@
+$kind: http-request
+name: Update
+url: "{{host}}/task/1"
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"description\": \"trabalho da faculdade 1\",\r
+
+    }"
+examples: .resources/Update.resources/examples
+order: 1189

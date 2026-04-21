@@ -1,0 +1,9 @@
+$kind: http-request
+name: Find
+url: "{{host}}/task/2"
+method: GET
+body:
+  type: json
+  content: ""
+examples: .resources/Find.resources/examples
+order: 1723562460185810

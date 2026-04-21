@@ -1,0 +1,5 @@
+$kind: http-request
+name: Delete
+url: "{{host}}/user/2"
+method: DELETE
+order: 2001022214714014
